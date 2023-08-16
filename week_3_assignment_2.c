@@ -24,4 +24,7 @@ int main()
 		printf("Positive number.");
     else
      	printf("The number is 0.");
+    
+    return 0;
+    
 }
