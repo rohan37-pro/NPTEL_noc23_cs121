@@ -23,4 +23,6 @@ printf("%d is odd.", number);
 	else 
       printf("%d is odd.", number);
 
+    return 0;
+
 }
