@@ -1,3 +1,4 @@
+// Problem Statement ~~
 /*
 Write a C Program to find the Largest Number (integer)  among Three Numbers (integers) using IF and Logical && operator.
 */
@@ -21,4 +22,6 @@ It may be n1, n2 or n3.
 	if (n3 > greatest)
       greatest = n3;
 	printf("%d is the largest number.", greatest);
+
+    return 0;
 }
