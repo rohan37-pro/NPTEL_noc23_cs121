@@ -24,4 +24,8 @@ You can declare any other variables if required */
     i--;
   }
 	printf("The Factorial of %d is : %ld",n,fact);
+
+    return 0;
+
 }
+
