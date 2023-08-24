@@ -21,11 +21,12 @@ printf("Scalene Triangle");
 
 */
 	int rat(int i, int j, int k){
-      if (i*i + j*j == k*k)
-        return 1;
-      else
-        return 0;
+        if (i*i + j*j == k*k)
+            return 1;
+        else
+            return 0;
     }
+
 
 	if ((a+b<= c) || (a+c<=b) || (c+b<=a))
     	printf("Triangle is not possible");
@@ -37,6 +38,8 @@ printf("Scalene Triangle");
       	printf("Scalene Triangle");
 	else if ((a==b && b!=c) || (b==c && c!=a) || (c==a && a!=b))
     	printf("Isosceles Triangle");
+
+    return 0;
 }
 
 

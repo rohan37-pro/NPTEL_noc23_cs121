@@ -17,15 +17,17 @@ with the output cases. Change the variable n1 as required.
 printf("%d is the smallest number.", n1);    //Copy and paste this printf statement wherever required. 
 
 */
-  if (n1 < n2){
-      if (n3 < n1)
+    if (n1 < n2){
+        if (n3 < n1)
         n1 = n3;
-  }
-  else{
-  	if (n2< n3)
-      n1 = n2;
-    else
-      n1 = n3;
-  }
-  printf("%d is the smallest number.", n1);
+    }
+    else{
+        if (n2< n3)
+            n1 = n2;
+        else
+            n1 = n3;
+    }
+    printf("%d is the smallest number.", n1);
+
+    return 0;
 }
