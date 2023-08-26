@@ -17,15 +17,16 @@ Copy and paste the printf statement given below wherever required to avoid error
 printf("\n%d is a perfect number.",N);
 printf("\n%d is not a perfect number.",N);
 */
-  int sum = 0;
-  for (int i=1; i<N; i++){
-    if (N%i==0) {
-    	sum+=i;
+    int sum = 0;
+    for (int i=1; i<N; i++){
+        if (N%i==0) {
+            sum+=i;
+        }
     }
-  }
-  if (sum==N)
-    printf("%d is a perfect number.",N);
-  else
-    printf("%d is not a perfect number.",N);
+    if (sum==N)
+        printf("%d is a perfect number.",N);
+    else
+        printf("%d is not a perfect number.",N);
 
+    return 0;
 }
