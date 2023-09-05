@@ -28,5 +28,5 @@ int main() {
         printf("%d\n", arr[i]); // For printing the array elements 
     }
     
-   return (0);
+    return (0);
 }
