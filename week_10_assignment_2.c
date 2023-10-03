@@ -3,8 +3,11 @@ Write a C code to check if a 3 x 3 matrix is invertible. A matrix is not inverti
 */
 
 
+
+
 #include<stdio.h>
- int main()
+
+int main()
 {
   int a[3][3], i, j;
   long determinant;
