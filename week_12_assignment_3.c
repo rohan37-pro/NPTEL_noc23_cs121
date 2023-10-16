@@ -18,26 +18,23 @@ int main()
 
     // Allocate the memory for 'n' number of elements. 
     //Then take the elements as input from test data
-element = (float*) calloc(n, sizeof(float));
+    element = (float*) calloc(n, sizeof(float));
 
-    if(element == NULL)
-    {
+    if(element == NULL){
         printf("Error!!! memory not allocated.");
         exit(0);
     }
 
     // Stores the number entered by the user.
     int i;
-    for(i = 0; i < n; ++i)
-    {
+    for(i = 0; i < n; ++i){
         scanf("%f", element + i);
     }
 
  // find the largest
-    for(i = 1; i < n; ++i)
-    {
-       if(*element < *(element + i))
-         *element = *(element + i);
+    for(i = 1; i < n; ++i){
+        if(*element < *(element + i))
+            *element = *(element + i);
     }
 
     printf("Largest element = %.2f\n", *element);
